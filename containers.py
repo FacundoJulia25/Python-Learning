@@ -33,10 +33,15 @@
 # print(user_list[1:6:4])
 
 # print(a_dictionary[123])
-exercise_list1 = [1,2,3,4,5,6,7,8,9,10,11,22,33,44,55,66,76,86,96,160]
-# voy a buscar 4 - 9 - 44
-print(exercise_list1[3:14:5])
-exercise_list = [1,2,3,4,5,6,7,8,9,10]
+# exercise_list1 = [1,2,3,4,5,6,7,8,9,10,11,22,33,44,55,66,76,86,96,160]
+# # voy a buscar 4 - 9 - 44
+# print(exercise_list1[3:14:5])
+# exercise_list = [1,2,3,4,5,6,7,8,9,10]
 
-#ahora al reves 
-print(exercise_list[7:0:-2])
+# #ahora al reves 
+# print(exercise_list[7:0:-2])
+
+
+a_dictionary= {'goku':12, 'vegeta':13}
+for i in a_dictionary:
+    print(a_dictionary[i])
