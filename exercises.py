@@ -28,4 +28,4 @@ num2 = int(input("number 2:"))
 
 hypotenuse = (num1 ** 2 + pow(num2, 2)) ** (1/2)
 
-print('This is your hypotenuse:', round(hypotenuse, 2))
+print(num1 + num2)
